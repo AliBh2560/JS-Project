@@ -1,0 +1,109 @@
+@font-face {
+    font-family: moz;
+    src: url(./Oswald-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: moz;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    background: linear-gradient(135deg, #153677, #4e085f);
+
+}
+
+.input {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+
+}
+
+#input {
+    border-radius: 10px;
+    background-color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#add {
+    padding: 5px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove {
+    padding: 5px 20px;
+    background-color: gray;
+    transition: 0.5s;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove:hover {
+    background-color: red;
+}
+
+.tableBTN {
+    transition: 0.5s;
+    padding: 4px 20px;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+}
+
+.tableBTN:hover {
+
+    background-color: green;
+    transition: 0.5s;
+}
+
+#table {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.li {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px 30px;
+    width: 500px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frezz {
+
+
+    display: none;
+}
+span{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.done{
+    background-color: green;
+}
